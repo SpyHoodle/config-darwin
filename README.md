@@ -4,7 +4,7 @@ My minimal nix-darwin configuration for my Apple Silicon Macs `mars`, `pluto`,
 and `venus`.
 
 It enables my reusable shell environment through its
-nix-darwin and Home Manager modules, and enables other nix-darwin features
+nix-darwin and Home Manager modules, and enables other nix-darwin features.
 
 ## Installation
 
