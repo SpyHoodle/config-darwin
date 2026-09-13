@@ -55,7 +55,10 @@
                 users.${username} = {
                   imports = [ shell.homeManagerModules.default ];
 
-                  shellEnvironment.enable = true;
+                  shellEnvironment = {
+                    enable = true;
+                    secretive.enable = true;
+                  };
 
                   home = {
                     inherit username;
