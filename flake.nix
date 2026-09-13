@@ -10,7 +10,7 @@
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-    shell.url = "git+file:../shell";
+    shell.url = "github:SpyHoodle/shell";
     shell.inputs.nixpkgs.follows = "nixpkgs";
     shell.inputs.darwin.follows = "darwin";
     shell.inputs.home-manager.follows = "home-manager";

@@ -281,17 +281,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1789314162,
-        "narHash": "sha256-vUFZBk0ZFdNSuxqZwPHBBrTMfyRwiDy6XBVWgI5nW04=",
-        "ref": "refs/heads/development",
-        "rev": "d33469a0aaacb5d22b676ab969fd81d84c84e59e",
-        "revCount": 6,
-        "type": "git",
-        "url": "file:../shell"
+        "lastModified": 1789315660,
+        "narHash": "sha256-YqOPfhrWkb8H25HC6a1Nn3X5Y/IEsD4F1eYRvGfxfx0=",
+        "owner": "SpyHoodle",
+        "repo": "shell",
+        "rev": "799af6375a0cc1d0579e5962d44f8dbfe0606e57",
+        "type": "github"
       },
       "original": {
-        "type": "git",
-        "url": "file:../shell"
+        "owner": "SpyHoodle",
+        "repo": "shell",
+        "type": "github"
       }
     },
     "systems": {
