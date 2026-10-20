@@ -53,12 +53,17 @@
                 useGlobalPkgs = true;
                 useUserPackages = true;
                 users.${username} = {
-                  imports = [ shell.homeManagerModules.default ];
+                  imports = [
+                    shell.homeManagerModules.default
+                    ./modules/programming-languages.nix
+                  ];
 
                   shellEnvironment = {
                     enable = true;
                     secretive.enable = true;
                   };
+
+                  programmingLanguages.rust.enable = true;
 
                   home = {
                     inherit username;
